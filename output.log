@@ -1,0 +1,189 @@
+nohup: ignoring input
+before / Route
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T13:05:41.047Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2f46fb5c5fe339232ebebe',
+  username: 'lori',
+  msg: 'Authenticated as lori' }
+/ Route if user
+[0mGET / [36m304 [0m14.271 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m2.812 ms - -[0m
+[0mGET /user/profile [36m304 [0m13.403 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m5.058 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.004 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.221 ms - -[0m
+login
+{ _id: 5a2f30bd14c6c6581e489106,
+  email: 'jam10636@gmail.com',
+  hashed_password: 'uKCCDVgVCKAJJDFwq0dE9oHQQEgJToylrn9f7j2rwhU=',
+  username: 'kevin',
+  __v: 0 }
+[0mPOST /login [36m302 [0m24.160 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T13:06:09.852Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2f30bd14c6c6581e489106',
+  username: 'kevin',
+  msg: 'Authenticated as kevin' }
+/ Route if user
+[0mGET / [32m200 [0m2.381 ms - 1268[0m
+[0mGET /javascripts/script.js [36m304 [0m14.773 ms - -[0m
+[0mGET /user/profile [32m200 [0m2.038 ms - 155[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T13:06:10.315Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2f30bd14c6c6581e489106',
+  username: 'kevin',
+  msg: 'Authenticated as kevin' }
+/ Route if user
+[0mGET / [36m304 [0m2.284 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m2.012 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.974 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T13:07:31.836Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.596 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.861 ms - 735[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.333 ms - -[0m
+login
+{ _id: 5a2f30bd14c6c6581e489106,
+  email: 'jam10636@gmail.com',
+  hashed_password: 'uKCCDVgVCKAJJDFwq0dE9oHQQEgJToylrn9f7j2rwhU=',
+  username: 'kevin',
+  __v: 0 }
+[0mPOST /login [36m302 [0m5.773 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T13:07:36.773Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2f30bd14c6c6581e489106',
+  username: 'kevin',
+  msg: 'Authenticated as kevin' }
+/ Route if user
+[0mGET / [32m200 [0m3.138 ms - 1268[0m
+[0mGET /javascripts/script.js [36m304 [0m1.516 ms - -[0m
+[0mGET /user/profile [36m304 [0m11.544 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T13:07:37.306Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2f30bd14c6c6581e489106',
+  username: 'kevin',
+  msg: 'Authenticated as kevin' }
+/ Route if user
+[0mGET / [36m304 [0m1.549 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.918 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.973 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m1.275 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.886 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.282 ms - -[0m
+login
+{ _id: 5a2f30bd14c6c6581e489106,
+  email: 'jam10636@gmail.com',
+  hashed_password: 'uKCCDVgVCKAJJDFwq0dE9oHQQEgJToylrn9f7j2rwhU=',
+  username: 'kevin',
+  __v: 0 }
+[0mPOST /login [36m302 [0m4.718 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T13:08:28.685Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2f30bd14c6c6581e489106',
+  username: 'kevin',
+  msg: 'Authenticated as kevin' }
+/ Route if user
+[0mGET / [36m304 [0m1.070 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.866 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.187 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T13:08:29.059Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2f30bd14c6c6581e489106',
+  username: 'kevin',
+  msg: 'Authenticated as kevin' }
+/ Route if user
+[0mGET / [36m304 [0m2.215 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m0.959 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.629 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T13:42:15.734Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.753 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.872 ms - 735[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.543 ms - 111[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T13:42:17.301Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'Access denied!' }
+/ Route else user
+[0mGET /stylesheets/style.css [36m304 [0m5.075 ms - -[0m
+[0mGET / [36m302 [0m1.480 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.765 ms - 735[0m
+login
+{ _id: 5a2f30bd14c6c6581e489106,
+  email: 'jam10636@gmail.com',
+  hashed_password: 'uKCCDVgVCKAJJDFwq0dE9oHQQEgJToylrn9f7j2rwhU=',
+  username: 'kevin',
+  __v: 0 }
+[0mPOST /login [36m302 [0m3.210 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T14:08:35.766Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2f30bd14c6c6581e489106',
+  username: 'kevin',
+  msg: 'Authenticated as kevin' }
+/ Route if user
+[0mGET / [32m200 [0m2.162 ms - 1268[0m
+[0mGET /javascripts/script.js [32m200 [0m1.213 ms - 1015[0m
+[0mGET /user/profile [32m200 [0m1.407 ms - 155[0m

@@ -6,7 +6,8 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
 </head>
         
-<body>  
+<body> 
+    <h1>CHATROOM</h1> 
     <div class="form-container">
         <p class="form-header">Login</p>
         <form method="POST" action="/login">
@@ -16,9 +17,9 @@
             <input type="password" id="password" name="password"><br>
             <input type="submit" id="login" value="Login">
         </form>
-    </div>
-    <a id="signUpLink" href="/signup">Sign Up</a>
-    <hr>
+    </div><br>
+    Don't have an account? 
+    <a id="signUpLink" href="/signup">Register here.</a><br><br>
     <span id="loginMsg">
     <%= msg %>
     </span>
